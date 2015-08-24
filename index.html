@@ -1,65 +1,39 @@
 <!DOCTYPE html>
 <head>
+	<link rel ='stylesheet' type='text/css' href='stylesheet.css'/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script> 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans: 300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <title>Scott Brenner - Home</title>
-<style>
-body {
-	text-align: center;
-	<!--background: url("http://i.imgur.com/sr9OLTe.jpg");-->
-	background-size: cover;
-}
-
-p {
-	font-size: 72px;
-	color: black;
-	font-family: 'Lobster', cursive;
-	margin: 0 auto;
-}
-img.me {
-	height: 350px;
-	width: 350px;
-	border: #FFFFFF 13px solid;
-	border-radius: 200px;
-	padding: 0px;
-}
-ul {
-	padding: 5px;
-	margin: 0 auto;
-	<!--background: rgba(0,0,0,0.5);-->
-}
-li {
-	display: inline;
-	padding: 0px 20px 0px 20px;
-	color: black;
-	font-size: 32px;
-	font-family: 'Open Sans', sans-serif;
-}
-
-@media only screen and (max-width: 850px){
-	p{
-		font-size: 40px;
-	}
-	
-	img.me{
-		height: 100px;
-		width: 100px;
-		border: #FFFFFF 5px solid;
-		border-radius: 25px;
-	}
-	li{
-		font-size: 16px;
-	}
-}
-</style>
 </head>
 <body>
 	<img class="me" src="http://i.imgur.com/1MEaWs9.jpg" width=>
-	<p>Scott Brenner</p>
+	<br></br>
+	<p class="name">Scott Brenner</p>
+	<br></br>
 	<ul>
-		<a href = "https://github.com/ScottBrenner" style="text-decoration: none"><li>Code</li></a>
-		<a href = "https://500px.com/ScottBrenner" style="text-decoration: none"><li>Photography</li></a>
-		<a href = "resume.html" style="text-decoration: none"><li>Resume</li></a>
+		<span class="code">
+			<button class="mdl-button mdl-js-button">
+				<li>Code</li>	
+			</button>
+		</span>
+		<span class="photography">
+			<button class="mdl-button mdl-js-button">	
+				<li>Photography</li>
+			</button>
+		</span>
+		<span class="resume">
+			<button class="mdl-button mdl-js-button">	
+				<li>Resume</li>
+			</button>
+		</span>
+		<!--
 		<a href = "bunnycam.html" style="text-decoration: none"><li>Brenner Bunny Cam</li></a>	
+		-->
 	</ul>
 </body>
