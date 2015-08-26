@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	$("img").fadeIn("slow");
+	$(".name").fadeIn("slow");
+	$(".code").fadeIn("slow");
+	$(".photography").fadeIn("slow");
+	$(".resume").fadeIn("slow");
+
 	$(".code").click(function() {
 		window.location="https://github.com/scottbrenner";
 	});
