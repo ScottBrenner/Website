@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	$("img").fadeIn("slow");
 	$(".name").fadeIn("slow");
-	$(".code").fadeIn("slow");
+	$(".projects").fadeIn("slow");
 	$(".photography").fadeIn("slow");
 	$(".resume").fadeIn("slow");
 
-	$(".code").click(function() {
-		window.location="https://github.com/scottbrenner";
+	$(".projects").click(function() {
+		window.location.href="projects.html";
 	});
 
 	$(".photography").click(function() {

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+  margin: auto;
+  margin-top: 150px;
+}
+.demo-card-wide > .mdl-card__title {
+  height: 176px;
+  background: url('http://i.imgur.com/lMdAO1l.png') center / cover;
+  background-size: 275px;
+  background-repeat: no-repeat;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.projects {
+	text-align: center;
+	margin-top: 120px;
+	font-family: "Roboto", sans-serif;
+	font-size: 60px;
+}
+
+</style>
+
+<head>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$("p").fadeIn("slow");
+			$(".card1").fadeIn("slow");
+
+			$("a").click(function() {
+				window.location="https://github.com/ScottBrenner/Website";
+			});
+		});
+	</script>
+</head>
+<title>
+	Scott Brenner - Projects
+</title>
+<p class="projects" style="display:none"> Projects </p>
+<span class="card1" style="display:none">
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+  </div>
+  <div class="mdl-card__supporting-text">
+    Created using HTML, CSS, JavaScript, JQuery, and design elements from Google's Material Design Lite. You are here!
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button">
+      View on GitHub
+    </a>
+  </div>
+</span>
+</div>
