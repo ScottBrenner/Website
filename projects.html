@@ -22,7 +22,19 @@ html {
 	text-align: center;
 	margin-top: 120px;
 	font-family: "Roboto", sans-serif;
-	font-size: 60px;
+	font-size: 70px;
+}
+
+.websiteslide {
+	display: none;
+	margin: 0px auto;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 95px;
+	margin-left: 700px;
+	position: absolute;
 }
 
 </style>
@@ -42,6 +54,13 @@ html {
 			$("a").click(function() {
 				window.location="https://github.com/ScottBrenner/Website";
 			});
+
+			$(".demo-card-wide.mdl-card").mouseover(function() {
+				$(".websiteslide").fadeIn("slow");
+			});
+			$(".demo-card-wide.mdl-card").mouseleave(function() {
+				$(".websiteslide").fadeOut("slow");
+			});
 		});
 	</script>
 </head>
@@ -49,6 +68,7 @@ html {
 	Scott Brenner - Projects
 </title>
 <p class="projects" style="display:none"> Projects </p>
+<span class="websiteslide"> Personal Website </p></span>
 <span class="card1" style="display:none">
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
