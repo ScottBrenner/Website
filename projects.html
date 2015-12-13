@@ -32,9 +32,16 @@ html {
 	text-align: center;
 	font-size: 36px;
 	text-align: center;
-	margin-top: 95px;
-	margin-left: 700px;
 	position: absolute;
+}
+
+#personalwebsite {
+	text-align: center;
+	margin-top: 55px;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	position: relative;
+	display: none;
 }
 
 </style>
@@ -45,7 +52,7 @@ html {
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script>
 		$(document).ready(function() {
 			$("p").fadeIn("slow");
@@ -56,10 +63,10 @@ html {
 			});
 
 			$(".demo-card-wide.mdl-card").mouseover(function() {
-				$(".websiteslide").fadeIn("slow");
+				$("#personalwebsite").fadeIn("slow");
 			});
 			$(".demo-card-wide.mdl-card").mouseleave(function() {
-				$(".websiteslide").fadeOut("slow");
+				$("#personalwebsite").fadeOut("slow");
 			});
 		});
 
@@ -75,19 +82,21 @@ html {
 <title>
 	Scott Brenner - Projects
 </title>
-<p class="projects" style="display:none"> Projects </p>
-<span class="websiteslide"> Personal Website </p></span>
+<p class="projects" style="display:none">Projects</p>
+<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--4-col">
 <span class="card1" style="display:none">
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
-  </div>
+    </div>
   <div class="mdl-card__supporting-text">
     You are here! Created using HTML, CSS, JavaScript, JQuery, and design elements from Google's Material Design Lite.
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button">
-      View on GitHub
-    </a>
+  	Personal Website
+  <a href="https://github.com/ScottBrenner/Website" style="text-decoration:none"><i class="fa fa-github fa-lg" style="color: black; float:right"></i><a>	
   </div>
 </span>
+</div>
+</div>
 </div>
