@@ -4,22 +4,6 @@ html {
 	overflow: hidden;
 }
 
-.demo-card-wide.mdl-card {
-  width: 512px;
-  margin: auto;
-  margin-top: 150px;
-}
-
-.card1 > .demo-card-wide > .mdl-card__title {
-  height: 176px;
-  background: url('http://i.imgur.com/lMdAO1l.png') center / cover;
-  background-size: 275px;
-  background-repeat: no-repeat;
-}
-
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
 
 .projects {
 	text-align: center;
@@ -28,23 +12,9 @@ html {
 	font-size: 70px;
 }
 
-.websiteslide {
-	display: none;
-	margin: 0px auto;
-	font-family: "Roboto", sans-serif;
-	text-align: center;
-	font-size: 36px;
-	text-align: center;
-	position: absolute;
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }
-
-.card2 > .demo-card-wide > .mdl-card__title {
-  height: 176px;
-  background: url('http://i.imgur.com/Fxkqk35.jpg') center / cover;
-  background-size: 275px;
-  background-repeat: no-repeat;
-}
-
 </style>
 
 <head>
@@ -57,7 +27,7 @@ html {
 	<script>
 		$(document).ready(function() {
 			$("p").fadeIn("slow");
-			$(".card1").fadeIn("slow");			
+			$("main").fadeIn("slow");
 		});
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -73,36 +43,39 @@ html {
 	Scott Brenner - Projects
 </title>
 <p class="projects" style="display:none">Projects</p>
-<div class="mdl-grid">
-	<div class="mdl-cell mdl-cell--4-col">
-<span class="card1" style="display:none">
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    </div>
-  <div class="mdl-card__supporting-text">
-    You are here! Created using HTML, CSS, JavaScript, JQuery, and design elements from Google's Material Design Lite.
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-  <a href="http://scottbrenner.me" style="text-decoration:none;color:black">Personal Website</a>
-  <a href="https://github.com/ScottBrenner/Website" style="text-decoration:none"><i class="fa fa-github fa-lg" style="color: black; float:right"></i><a>	
-  </div>
-</span>
-</div>
-</div>
-<div class="mdl-cell mdl-cell--4-col">
-<span class="card2" style="display:none">
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    </div>
-  <div class="mdl-card__supporting-text">
-    Final project for Web Applications course at UC Santa Cruz. A web application to help users find the best pizza near them.
-Interactive map implemented with the Google Maps API.
-Frontend made with Javascript, Bootstrap, and Google's Design Lite library. Backend made with web2py. 
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-  <a href="http://findbestpizza.pythonanywhere.com/findbestpizza/default/index" style="text-decoration:none;color:black">findbest.pizza</a>
-  <a href="https://github.com/ScottBrenner/findbest.pizza" style="text-decoration:none"><i class="fa fa-github fa-lg" style="color: black; float:right"></i><a>	
-  </div>
-</span>
-</div>
-
+<br>
+<main class="mdl-layout__content" style="display:none">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="http://i.imgur.com/lMdAO1l.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Personal Website</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+											You are here! Created using HTML, CSS, JavaScript, JQuery, and design elements from Google's Material Design Lite.
+                    </div>
+										<div class="mdl-card__actions mdl-card--border">
+									  <a href="http://scottbrenner.me" style="text-decoration:none;color:black">Personal Website</a>
+									  <a href="https://github.com/ScottBrenner/Website" style="text-decoration:none"><i class="fa fa-github fa-lg" style="color: black; float:right"></i><a>
+									  </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="http://i.imgur.com/Fxkqk35.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">findbest.pizza</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+											Final project for Web Applications course at UC Santa Cruz. A web application to help users find the best pizza near them.
+											Interactive map implemented with the Google Maps API.
+											Frontend made with Javascript, Bootstrap, and Google's Design Lite library. Backend made with web2py.
+										</div>
+										<div class="mdl-card__actions mdl-card--border">
+									  <a href="http://findbestpizza.pythonanywhere.com/findbestpizza/default/index" style="text-decoration:none;color:black">findbest.pizza</a>
+									  <a href="https://github.com/ScottBrenner/findbest.pizza" style="text-decoration:none"><i class="fa fa-github fa-lg" style="color: black; float:right"></i><a>
+									  </div>
+                </div>
+</main>
