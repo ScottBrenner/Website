@@ -1,14 +1,13 @@
-body {
-    text-align: center;
-    <!--background: url("http://i.imgur.com/sr9OLTe.jpg");
-    -->background-size: cover;
-}
-
 p.name {
-    font-size: 72px;
+    font-size: 65px;
     color: black;
-    font-family: 'Lobster', cursive;
+    font-family: 'Times';
     margin: 0 auto;
+    float: left;
+    clear: both;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-weight: bold;
 }
 
 img.me {
@@ -16,22 +15,8 @@ img.me {
     width: 350px;
     border: #FFFFFF 13px solid;
     border-radius: 200px;
-    padding: 0px;
-}
-
-ul {
-    padding: 5px;
-    margin: 0 auto;
-    <!--background: rgba(0, 0, 0, 0.5);
-    -->
-}
-
-li {
-    display: inline;
-    padding: 0px 20px 0px 20px;
-    color: black;
-    font-size: 32px;
-    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin-left: 1%
 }
 
 @media only screen and (max-width: 850px) {
@@ -47,4 +32,34 @@ li {
     li {
         font-size: 16px;
     }
+}
+
+ul#info-list {
+  list-style-type:disc;
+  clear: both;
+  float: left;
+  padding-top: 1%;
+}
+
+li {
+  font-family: 'Times';
+  font-size: 16px;
+}
+
+ul#icon-list li {
+  display: inline;
+}
+
+ul#icon-list {
+  clear: both;
+  float: left;
+  margin-left: -1%;
+}
+
+#info {
+  display: none;
+}
+
+#resume {
+  display: none;
 }
