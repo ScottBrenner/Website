@@ -35,31 +35,31 @@ img.me {
 }
 
 ul#info-list {
-  list-style-type:disc;
-  clear: both;
-  float: left;
-  padding-top: 1%;
+    list-style-type: disc;
+    clear: both;
+    float: left;
+    padding-top: 1%;
 }
 
 li {
-  font-family: 'Times';
-  font-size: 16px;
+    font-family: 'Times';
+    font-size: 16px;
 }
 
 ul#icon-list li {
-  display: inline;
+    display: inline;
 }
 
 ul#icon-list {
-  clear: both;
-  float: left;
-  margin-left: -1%;
+    clear: both;
+    float: left;
+    margin-left: -1%;
 }
 
 #info {
-  display: none;
+    display: none;
 }
 
 #resume {
-  display: none;
+    display: none;
 }
