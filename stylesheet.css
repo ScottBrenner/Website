@@ -16,22 +16,7 @@ img.me {
     border: #FFFFFF 13px solid;
     border-radius: 200px;
     float: left;
-    margin-left: 1%
-}
-
-@media only screen and (max-width: 850px) {
-    p {
-        font-size: 40px;
-    }
-    img.me {
-        height: 100px;
-        width: 100px;
-        border: #FFFFFF 5px solid;
-        border-radius: 25px;
-    }
-    li {
-        font-size: 16px;
-    }
+    margin-left: 1%;
 }
 
 ul#info-list {
@@ -62,4 +47,19 @@ ul#icon-list {
 
 #resume {
     display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    p {
+        font-size: 40px;
+    }
+    img.me {
+        height: 100px;
+        width: 100px;
+        border: #FFFFFF 5px solid;
+        border-radius: 25px;
+    }
+    li {
+        font-size: 16px;
+    }
 }
