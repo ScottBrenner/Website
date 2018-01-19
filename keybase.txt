@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/scottbrenner
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://scottbrenner.me
+  * I am scottbrenner (https://keybase.io/scottbrenner) on keybase.
+  * I have a public key with fingerprint 2EE0 E762 6C33 49F8 1D3A  38D7 CE94 4BC6 E09D CC68
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018152935a6066a53189ce69658d27ce32880bbe70ca7700546b819402225e7aa80a",
+            "fingerprint": "2ee0e7626c3349f81d3a38d7ce944bc6e09dcc68",
+            "host": "keybase.io",
+            "key_id": "ce944bc6e09dcc68",
+            "kid": "01018152935a6066a53189ce69658d27ce32880bbe70ca7700546b819402225e7aa80a",
+            "uid": "d3daf09464ff9e72eb16da4ec59dc219",
+            "username": "scottbrenner"
+        },
+        "service": {
+            "hostname": "scottbrenner.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467867466,
+    "expire_in": 157680000,
+    "prev": "bc0d4f8b3be0e815ab1e4c4566294fef9324127b948667dbd21f2df3df59482f",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJdSBRRFF4rsyxxU0yxH3TwKReZ3zszi4oPQiESJpSZxTYz94477Dqz
+zY6a2vbng4T1YGilJsiaYqmJQRgiZlYiZkmJD4UVQplQpA8hFgndkXrzsftyued8
+33e+c+55FrPZER3RkXo4NWYlxRXx4klbuaMoNJ9XQ8gGrCLcNYQPrV/ID1HQ8vg0
+SLgJkiIpgeJokeEkQAIgcQwliAoCIuAESPMKYmhBIGUZ8aQi8TxJciyQBUpkSZqm
+OcRLkkBKhItQNb0UmQFT0y0sSyNEIh7QQGEYVlQFCjISI0AsJ7KsrABEilBRgICJ
+XiNoM7A5WQqiDM3AMfzwrNvbAP+ffZevy0EGSiopsoBVVRHxNJIpACUWKRyuS1Oi
+DQwiU5fKEEYHFcOyZBPpOjKJkIvAmQpNQfZw7W42QGXgiIsImIZlKIYfJ72WFXDb
+XKsqYIMrkez5K+ORNR3iaWJCBTKDmqETbgojFUuzdSkW8ALgWQBcBDob0Ezk0WwE
+xwOBxMcugyqwpKyQkFUFmZHxX+BZSTKFWIXlAKBFVkWqyNAsRfOyyAoA8FCGNKXS
+UGWgyuEQrRJ2Y2d0g3Bz2KZUarekleqSVW4iIjQ2enKLIyLasTVyk71ljujtzn+7
+dzE+ai3JebT3y97x2o9jl98n59y7VVzQlvv5d+6d2JkeXpw4Et7X2l/3cjLsbLo2
+lbN6IG9u/HT3SH2Dlj+c2RB3oVnyz36NdTbVU4Ge2T0tMyV907z3YFp7Qur+XdWr
+WQVdUZVZha0pLelpzzOvTyYPewcjKxsf5h/rup8wsJD9ZnGla9tQhTNibuJbXPyO
+9gfM693h0eWqK+HE8Gw6PzDMLRV2dnd69e/ZjoZXNR+aFi8dGj81En9zVWtOPv/u
+xPLyTtXXX8msen99GswPwJZFX0LvfF3ryBR5d2JhuuMtVXx1ZnIo1BXz1F/987Hn
+RlJZyXz32o/bsUv8uUeNfUpiUe3xP+3gRSc=
+=nC0Y
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/scottbrenner
+
+==================================================================
