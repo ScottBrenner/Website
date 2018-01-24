@@ -1,8 +1,5 @@
-jobs:
-  build:
-    steps:
-      deployment:
-        prod:
-          branch: master
-          commands:
-            - aws s3 sync * s3://scottbrenner.me --delete
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync /home/ubuntu/Website s3://scottbrenner.me --delete
