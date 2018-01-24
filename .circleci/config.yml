@@ -1,7 +1,8 @@
-version: 2
-  steps:
-    deployment:
-      prod:
-        branch: master
-        commands:
-          - aws s3 sync * s3://scottbrenner.me --delete
+jobs:
+  build:
+    steps:
+      deployment:
+        prod:
+          branch: master
+          commands:
+            - aws s3 sync * s3://scottbrenner.me --delete
