@@ -3,4 +3,4 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: aws s3 sync ./Website s3://scottbrenner.me --delete
+      - run: pwd && ls
