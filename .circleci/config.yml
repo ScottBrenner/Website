@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync /home/ubuntu/Website s3://scottbrenner.me --delete
+      - aws s3 sync /home/ubuntu/Website s3://scottbrenner.me
