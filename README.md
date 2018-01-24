@@ -1,3 +1,3 @@
 Files for my website!
 
-http://scottbrenner.me/
+https://www.scottbrenner.me/
