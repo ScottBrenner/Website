@@ -2,6 +2,5 @@ jobs:
   build:
     machine: true
     steps:
-      - run:
-        name: Deploy to S3
-        command: aws s3 sync /home/ubuntu/Website s3://scottbrenner.me --delete
+      - checkout:
+      - run: aws s3 sync /home/ubuntu/Website s3://scottbrenner.me --delete
