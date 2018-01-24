@@ -1,6 +1,10 @@
+jobs:
+  build:
+    override:
+      - echo "test"
+
 deployment:
   prod:
     branch: master
     commands:
       - aws s3 sync /home/ubuntu/Website s3://scottbrenner.me
-      
