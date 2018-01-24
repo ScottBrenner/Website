@@ -2,5 +2,5 @@ jobs:
   build:
     machine: true
     steps:
-      - checkout:
+      - checkout
       - run: aws s3 sync /home/ubuntu/Website s3://scottbrenner.me --delete
