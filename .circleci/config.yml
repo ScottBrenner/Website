@@ -1,4 +1,4 @@
-jobs:
+job:
   build:
     steps:
       override:
