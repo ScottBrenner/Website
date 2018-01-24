@@ -1,7 +1,8 @@
 jobs:
   build:
-    override:
-      - echo "test"
+    steps:
+      override:
+        - echo "test"
 
 deployment:
   prod:
